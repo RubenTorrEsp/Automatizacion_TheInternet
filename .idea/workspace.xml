@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Project adaptation to new page">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AddRemovePage.java" afterDir="false" />
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="JavaScript page added to project">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaScriptAlertsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ContactPage_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddRemoveTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaScriptAlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaScriptAlertsPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +36,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "F:/Proyectos/eclipse-workspace/Automatizacion_TheInternet/src/test/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Proyectos/eclipse-workspace/Automatizacion_TheInternet/src/test/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Proyectos\eclipse-workspace\Automatizacion_TheInternet\src\test\java" />
@@ -80,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671044660881</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add / Remove page added to project">
+      <created>1671212483772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671212483772</updated>
+    </task>
+    <task id="LOCAL-00004" summary="JavaScript page added to project">
+      <created>1671212515556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671212515556</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +110,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project creation" />
     <MESSAGE value="Project adaptation to new page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project adaptation to new page" />
+    <MESSAGE value="Add / Remove page added to project" />
+    <MESSAGE value="JavaScript page added to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript page added to project" />
   </component>
 </project>
