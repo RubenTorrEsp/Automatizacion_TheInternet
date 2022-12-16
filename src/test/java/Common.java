@@ -14,9 +14,11 @@ public class Common{
         base.goToURL("https://the-internet.herokuapp.com/");
     }
 
+    /*
     @After
     public void tearDown() {
         driver.quit();
     }
+    */
 
 }
