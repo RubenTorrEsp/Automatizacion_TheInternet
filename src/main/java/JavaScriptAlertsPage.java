@@ -1,7 +1,16 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
-public class JavaScriptAlertsPage {
+import java.util.List;
 
-    By buttons;
+public class JavaScriptAlertsPage extends _BasePage {
 
+    String result;
+
+    List<WebElement> buttons = driver.findElements(By.cssSelector("button"));
+
+    public JavaScriptAlertsPage(WebDriver driver) {
+        super(driver);
+    }
 }

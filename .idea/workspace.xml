@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="JavaScript page added to project">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaScriptAlertsTests.java" afterDir="false" />
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="JavaScriptAlertsTests finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddRemovePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddRemovePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JavaScriptAlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaScriptAlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddRemoveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddRemoveTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaScriptAlertsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaScriptAlertsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +60,44 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.JavaScriptAlertsTests">
+    <configuration name="JavaScriptAlertsTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automatizacion_TheInternet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JavaScriptAlertsTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaScriptAlertsTests.JS_Alert_Works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automatizacion_TheInternet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JavaScriptAlertsTests" />
+      <option name="METHOD_NAME" value="JS_Alert_Works" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaScriptAlertsTests.JS_Prompt_Cancel_Works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automatizacion_TheInternet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JavaScriptAlertsTests" />
+      <option name="METHOD_NAME" value="JS_Prompt_Cancel_Works" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JavaScriptAlertsTests" />
+        <item itemvalue="JUnit.JavaScriptAlertsTests.JS_Alert_Works" />
+        <item itemvalue="JUnit.JavaScriptAlertsTests.JS_Prompt_Cancel_Works" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -93,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671212515556</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JavaScript tests class added to project">
+      <created>1671215445514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671215445514</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +161,7 @@
     <MESSAGE value="Project adaptation to new page" />
     <MESSAGE value="Add / Remove page added to project" />
     <MESSAGE value="JavaScript page added to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaScript page added to project" />
+    <MESSAGE value="JavaScript tests class added to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript tests class added to project" />
   </component>
 </project>
