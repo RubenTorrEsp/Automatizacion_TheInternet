@@ -1,7 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class AddRemovePage extends BasePage {
+public class AddRemovePage extends _BasePage {
     By addElementButton = new By.ByLinkText("Add Element");
     By deleteButton = new By.ByLinkText("Delete");
 

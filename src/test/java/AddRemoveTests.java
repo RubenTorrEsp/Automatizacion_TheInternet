@@ -3,7 +3,7 @@ import org.openqa.selenium.By;
 
 import java.time.Duration;
 
-public class AddRemoveTests extends Common {
+public class AddRemoveTests extends _Common {
 
     @Test
     public void test() throws InterruptedException {
