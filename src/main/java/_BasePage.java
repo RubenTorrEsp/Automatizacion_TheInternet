@@ -21,11 +21,13 @@ public class _BasePage {
 
     public void navigateToByLink(String tag){
         new WebDriverWait(driver, Duration.ofSeconds(5))
-                .until(contactPage -> contactPage.findElement(By.linkText(tag)));
+                .until(page -> page.findElement(By.linkText(tag)));
         click(By.linkText(tag));
     }
 
     public void click(By locator){
+        new WebDriverWait(driver, Duration.ofSeconds(5))
+                .until(page -> page.findElement(locator));
         driver.findElement(locator).click();
     }
 
