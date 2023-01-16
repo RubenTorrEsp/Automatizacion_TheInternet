@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="JS Alerts page classes finished&#10;Click method improved" />
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="JS Alerts page classes finished&#10;Click method improved">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddRemovePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddRemovePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaScriptAlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaScriptAlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddRemoveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddRemoveTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaScriptAlertsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaScriptAlertsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,13 +54,23 @@
       <recent name="F:\Proyectos\eclipse-workspace\Automatizacion_TheInternet\src\main\java\org" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Proyectos\eclipse-workspace\Automatizacion_TheInternet\src\main\resources" />
       <recent name="F:\Proyectos\eclipse-workspace\Automatizacion_TheInternet\src\test\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JavaScriptAlertsTests">
+  <component name="RunManager" selected="JUnit.AddRemoveTests">
+    <configuration name="AddRemoveTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automatizacion_TheInternet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddRemoveTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaScriptAlertsTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddRemoveTests" />
         <item itemvalue="JUnit.JavaScriptAlertsTests" />
         <item itemvalue="JUnit.JavaScriptAlertsTests.JS_Alert_Works" />
         <item itemvalue="JUnit.JavaScriptAlertsTests.JS_Prompt_Cancel_Works" />
@@ -162,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671554278529</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="JS Alerts page classes finished&#10;Click method improved">
+      <created>1671554302121</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671554302121</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

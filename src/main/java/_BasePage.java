@@ -14,7 +14,7 @@ public class _BasePage {
     }
 
     public WebDriver chromeDriverConnection() {
-        System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver.exe");
         driver = new ChromeDriver();
         return driver;
     }
