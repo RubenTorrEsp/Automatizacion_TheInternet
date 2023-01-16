@@ -61,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddRemoveTests">
+  <component name="RunManager" selected="JUnit.JavaScriptAlertsTests">
     <configuration name="AddRemoveTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddRemoveTests" />
         <item itemvalue="JUnit.JavaScriptAlertsTests" />
+        <item itemvalue="JUnit.AddRemoveTests" />
         <item itemvalue="JUnit.JavaScriptAlertsTests.JS_Alert_Works" />
         <item itemvalue="JUnit.JavaScriptAlertsTests.JS_Prompt_Cancel_Works" />
       </list>

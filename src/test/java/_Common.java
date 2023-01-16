@@ -1,5 +1,5 @@
-import org.junit.*;
-
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 
 public class _Common {
@@ -7,14 +7,14 @@ public class _Common {
 
     _BasePage base;
 
-    @Before
+    @BeforeEach
     public void setUp () {
         base = new _BasePage(driver);
         driver = base.chromeDriverConnection();
         base.goToURL("https://the-internet.herokuapp.com/");
     }
 
-    @After
+    @AfterEach
     public void tearDown() {
         driver.quit();
     }
