@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Common Test class fixed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CheckboxesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CheckboxesTests.java" afterDir="false" />
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Checkboxes classes created and completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/_Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckboxesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckboxesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673903608144</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Checkboxes classes created and completed">
+      <created>1673979372265</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673979372265</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +232,7 @@
     <MESSAGE value="JS Alerts page classes finished&#10;Click method improved" />
     <MESSAGE value="POM modified" />
     <MESSAGE value="Common Test class fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Common Test class fixed" />
+    <MESSAGE value="Checkboxes classes created and completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkboxes classes created and completed" />
   </component>
 </project>

@@ -1,7 +1,8 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebElement;
 
-import static junit.framework.Assert.*;
+
 
 public class CheckboxesTests extends _Common {
 
@@ -24,7 +25,7 @@ public class CheckboxesTests extends _Common {
 
         int selectedBoxes = cbp.countSelected(cbp.checkboxes);
 
-        assertEquals(errorMessage, totalCheckboxes, selectedBoxes);
+        Assertions.assertEquals(totalCheckboxes, selectedBoxes, errorMessage);
     }
 
     @Test
@@ -39,7 +40,7 @@ public class CheckboxesTests extends _Common {
 
         int selectedBoxes = cbp.countSelected(cbp.checkboxes);
 
-        assertEquals(errorMessage, expectedBoxes, selectedBoxes);
+        Assertions.assertEquals(expectedBoxes, selectedBoxes, errorMessage);
     }
 
     @Test
@@ -49,13 +50,13 @@ public class CheckboxesTests extends _Common {
         String NotSelectedErrorMessage = "Checkbox is selected";
         WebElement box = cbp.checkboxes.get(1);
 
-        assertTrue(SelectedErrorMessage, box.isSelected());
+        Assertions.assertTrue(box.isSelected(), SelectedErrorMessage);
         box.click();
 
-        assertFalse(NotSelectedErrorMessage, box.isSelected());
+        Assertions.assertFalse(box.isSelected(), NotSelectedErrorMessage);
         box.click();
 
-        assertTrue(SelectedErrorMessage, box.isSelected());
+        Assertions.assertTrue(box.isSelected(), SelectedErrorMessage);
     }
 
     @Test
@@ -65,13 +66,13 @@ public class CheckboxesTests extends _Common {
         String NotSelectedErrorMessage = "Checkbox is selected";
         WebElement box = cbp.checkboxes.get(0);
 
-        assertFalse(NotSelectedErrorMessage, box.isSelected());
+        Assertions.assertFalse(box.isSelected(), NotSelectedErrorMessage);
         box.click();
 
-        assertTrue(SelectedErrorMessage, box.isSelected());
+        Assertions.assertTrue(box.isSelected(), SelectedErrorMessage);
         box.click();
 
-        assertFalse(NotSelectedErrorMessage, box.isSelected());
+        Assertions.assertFalse(box.isSelected(), NotSelectedErrorMessage);
     }
 
 }
