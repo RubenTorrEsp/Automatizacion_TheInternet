@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="JS Alerts page classes finished&#10;Click method improved">
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Common Test class fixed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CheckboxesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CheckboxesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddRemovePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddRemovePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaScriptAlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaScriptAlertsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AddRemoveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddRemoveTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaScriptAlertsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaScriptAlertsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_Common.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IurrcYZ1VJFHTabLJHYaUSIx0E" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -188,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671554302121</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="POM modified">
+      <created>1673903423380</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673903423380</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Common Test class fixed">
+      <created>1673903608144</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673903608144</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +225,8 @@
     <MESSAGE value="Add / Remove page classes created" />
     <MESSAGE value="JS Alerts page classes created" />
     <MESSAGE value="JS Alerts page classes finished&#10;Click method improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS Alerts page classes finished&#10;Click method improved" />
+    <MESSAGE value="POM modified" />
+    <MESSAGE value="Common Test class fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Common Test class fixed" />
   </component>
 </project>
