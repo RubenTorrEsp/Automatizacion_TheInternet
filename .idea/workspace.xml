@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Assertions improved" />
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Key Presses Page and Tests classes created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673980203872</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Context Menu Page and Tests classes created">
+      <created>1674082120318</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674082120318</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Key Presses Page and Tests classes created">
+      <created>1674082139531</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674082139531</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +261,8 @@
     <MESSAGE value="Common Test class fixed" />
     <MESSAGE value="Checkboxes classes created and completed" />
     <MESSAGE value="Assertions improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assertions improved" />
+    <MESSAGE value="Context Menu Page and Tests classes created" />
+    <MESSAGE value="Key Presses Page and Tests classes created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Key Presses Page and Tests classes created" />
   </component>
 </project>
