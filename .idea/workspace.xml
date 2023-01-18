@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Checkboxes classes created and completed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckboxesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckboxesTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Assertions improved" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,11 +55,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JavaScriptAlertsTests">
+  <component name="RunManager" selected="JUnit.KeyPressesTests">
     <configuration name="AddRemoveTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AddRemoveTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContextMenuTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automatizacion_TheInternet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContextMenuTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,22 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptAlertsTests.JS_Prompt_Cancel_Works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyPressesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JavaScriptAlertsTests" />
-      <option name="METHOD_NAME" value="JS_Prompt_Cancel_Works" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="KeyPressesTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JavaScriptAlertsTests" />
+        <item itemvalue="JUnit.KeyPressesTests" />
+        <item itemvalue="JUnit.ContextMenuTests" />
         <item itemvalue="JUnit.AddRemoveTests" />
+        <item itemvalue="JUnit.JavaScriptAlertsTests" />
         <item itemvalue="JUnit.JavaScriptAlertsTests.JS_Alert_Works" />
-        <item itemvalue="JUnit.JavaScriptAlertsTests.JS_Prompt_Cancel_Works" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673979372265</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Assertions improved">
+      <created>1673980203872</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673980203872</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +246,7 @@
     <MESSAGE value="POM modified" />
     <MESSAGE value="Common Test class fixed" />
     <MESSAGE value="Checkboxes classes created and completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkboxes classes created and completed" />
+    <MESSAGE value="Assertions improved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assertions improved" />
   </component>
 </project>
