@@ -30,8 +30,7 @@ public class KeyPressesTests extends _Common {
         String errorText = "Text dont match";
         String[] directions = {"UP", "DOWN", "RIGHT", "LEFT"} ;
 
-        for (int i=0; i<directions.length; i++) {
-            String direction = directions[i];
+        for (String direction:directions) {
             driver.findElement(kpp.input).sendKeys(Keys.valueOf(direction));
             String expectedText = "You entered: "+direction;
             String actualText = driver.findElement(kpp.result).getText();
