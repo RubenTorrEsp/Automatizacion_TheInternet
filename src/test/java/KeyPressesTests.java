@@ -28,26 +28,15 @@ public class KeyPressesTests extends _Common {
     public void press_arrow_keys_works_correctly() {
         setUpPage();
         String errorText = "Text dont match";
+        String[] directions = {"UP", "DOWN", "RIGHT", "LEFT"} ;
 
-        driver.findElement(kpp.input).sendKeys(Keys.LEFT);
-        String expectedText = "You entered: LEFT";
-        String actualText = driver.findElement(kpp.result).getText();
-        assertEquals(expectedText, actualText, errorText);
-
-        driver.findElement(kpp.input).sendKeys(Keys.RIGHT);
-        expectedText = "You entered: RIGHT";
-        actualText = driver.findElement(kpp.result).getText();
-        assertEquals(expectedText, actualText, errorText);
-
-        driver.findElement(kpp.input).sendKeys(Keys.UP);
-        expectedText = "You entered: UP";
-        actualText = driver.findElement(kpp.result).getText();
-        assertEquals(expectedText, actualText, errorText);
-
-        driver.findElement(kpp.input).sendKeys(Keys.DOWN);
-        expectedText = "You entered: DOWN";
-        actualText = driver.findElement(kpp.result).getText();
-        assertEquals(expectedText, actualText, errorText);
+        for (int i=0; i<directions.length; i++) {
+            String direction = directions[i];
+            driver.findElement(kpp.input).sendKeys(Keys.valueOf(direction));
+            String expectedText = "You entered: "+direction;
+            String actualText = driver.findElement(kpp.result).getText();
+            assertEquals(expectedText, actualText, errorText);
+        }
     }
 
     @Test
