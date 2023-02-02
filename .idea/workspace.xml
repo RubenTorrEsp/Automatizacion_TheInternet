@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Arrow keys test list cleaned.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DropdownPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InputsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DropdownTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InputsTests.java" afterDir="false" />
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="DropdownPage, DropdownTests, InputsPage and InputsTests classes created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DragAndDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DragAndDropTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,12 +58,15 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.DropdownTests.test">
-    <configuration name="AddRemoveTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DragAndDropTests">
+    <configuration name="DragAndDropTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddRemoveTests" />
+      <option name="MAIN_CLASS_NAME" value="DragAndDropTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DragAndDropTests" />
         <item itemvalue="JUnit.DropdownTests.test" />
         <item itemvalue="JUnit.DropdownTests.check_title_is_correct" />
         <item itemvalue="JUnit.KeyPressesTests.press_arrow_keys_works_correctly" />
         <item itemvalue="JUnit.KeyPressesTests" />
-        <item itemvalue="JUnit.AddRemoveTests" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674228145315</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="DropdownPage, DropdownTests, InputsPage and InputsTests classes created">
+      <created>1674235117494</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1674235117494</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +310,7 @@
     <MESSAGE value="Chromedriver updated" />
     <MESSAGE value="Arrow keys test code improved." />
     <MESSAGE value="Arrow keys test list cleaned." />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrow keys test list cleaned." />
+    <MESSAGE value="DropdownPage, DropdownTests, InputsPage and InputsTests classes created" />
+    <option name="LAST_COMMIT_MESSAGE" value="DropdownPage, DropdownTests, InputsPage and InputsTests classes created" />
   </component>
 </project>
