@@ -1,5 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class DragAndDropPage extends _BasePage {
 
@@ -10,8 +11,8 @@ public class DragAndDropPage extends _BasePage {
     String errorMessage = "Drag and Drop didn´t work correctly";
 
     By sqare = By.className("column");
-    By columnA = By.id("column-a");
-    By columnB = By.id("column-b");
+    WebElement columnA = findElement(By.id("column-a"));
+    WebElement columnB = findElement(By.id("column-b"));
     By text = By.cssSelector("header");
 
 }

@@ -1,5 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -29,6 +30,12 @@ public class _BasePage {
         new WebDriverWait(driver, Duration.ofSeconds(5))
                 .until(page -> page.findElement(locator));
         driver.findElement(locator).click();
+    }
+
+    public WebElement findElement(By locator){
+        new WebDriverWait(driver, Duration.ofSeconds(5))
+                .until(page -> page.findElement(locator));
+        return driver.findElement(locator);
     }
 
     public void goToURL(String url){
