@@ -23,21 +23,26 @@ public class DragAndDropTests extends _Common {
         String expectedTitle = "a";
         String actualTitle = "a";
 
-        Thread.sleep(3000);
         List<WebElement> columns = driver.findElements(By.className("column"));
-        WebElement columnA = columns.get(0);
-        WebElement columnB = columns.get(1);
 
         System.out.println(columns.size());
+
+        System.out.println("Before");
         System.out.println(columns.get(0).getText());
         System.out.println(columns.get(1).getText());
+
+        WebElement columnA = driver.findElement(By.id("column-a"));
+        WebElement columnB = driver.findElement(By.id("column-b"));
 
         Actions action = new Actions(driver);
-        action.dragAndDrop(columnA, columnB).build().perform();
+        action.dragAndDrop(columns.get(0), columns.get(1)).build().perform();
 
         columns = driver.findElements(By.className("column"));
+
+        System.out.println("After");
         System.out.println(columns.get(0).getText());
         System.out.println(columns.get(1).getText());
+
 
         assertEquals(expectedTitle, actualTitle, ddp.errorMessage);
     }

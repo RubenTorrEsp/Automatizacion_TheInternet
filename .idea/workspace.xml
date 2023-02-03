@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="DragAndDropPage and DragAndDropTests classes created.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DragAndDropPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DragAndDropPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DragAndDropTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DragAndDropTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
