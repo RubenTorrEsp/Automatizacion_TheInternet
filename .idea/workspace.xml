@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="DragAndDropPage and DragAndDropTests classes created.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FloatingMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FloatingMenuTests.java" afterDir="false" />
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="FloatingMenuPage and FloatingMenuTests classes created.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FormAuthenticationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FormAuthenticationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DragAndDropTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DragAndDropTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FloatingMenuTests">
+  <component name="RunManager" selected="JUnit.FormAuthenticationTests">
     <configuration name="DragAndDropTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,23 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyPressesTests.press_arrow_keys_works_correctly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FormAuthenticationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KeyPressesTests" />
-      <option name="METHOD_NAME" value="press_arrow_keys_works_correctly" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="FormAuthenticationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FormAuthenticationTests" />
         <item itemvalue="JUnit.FloatingMenuTests" />
         <item itemvalue="JUnit.DragAndDropTests" />
         <item itemvalue="JUnit.DropdownTests.test" />
         <item itemvalue="JUnit.DropdownTests.check_title_is_correct" />
-        <item itemvalue="JUnit.KeyPressesTests.press_arrow_keys_works_correctly" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675371415370</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Drag and drop test improvement">
+      <created>1675532217565</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675532217565</updated>
+    </task>
+    <task id="LOCAL-00024" summary="FloatingMenuPage and FloatingMenuTests classes created.">
+      <created>1675532250061</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675532250061</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,6 +332,8 @@
     <MESSAGE value="Arrow keys test list cleaned." />
     <MESSAGE value="DropdownPage, DropdownTests, InputsPage and InputsTests classes created" />
     <MESSAGE value="DragAndDropPage and DragAndDropTests classes created." />
-    <option name="LAST_COMMIT_MESSAGE" value="DragAndDropPage and DragAndDropTests classes created." />
+    <MESSAGE value="Drag and drop test improvement" />
+    <MESSAGE value="FloatingMenuPage and FloatingMenuTests classes created." />
+    <option name="LAST_COMMIT_MESSAGE" value="FloatingMenuPage and FloatingMenuTests classes created." />
   </component>
 </project>
