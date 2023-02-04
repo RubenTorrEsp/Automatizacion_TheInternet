@@ -17,15 +17,13 @@ public class DragAndDropTests extends _Common {
     }
 
     @Test
-    public void drop_a2b_works() throws InterruptedException {
+    public void drop_a2b_works() {
         setUpPage();
 
         String expectedTitle = "a";
         String actualTitle = "a";
 
         List<WebElement> columns = driver.findElements(By.className("column"));
-
-        System.out.println(columns.size());
 
         System.out.println("Before");
         System.out.println(columns.get(0).getText());
@@ -35,7 +33,7 @@ public class DragAndDropTests extends _Common {
         WebElement columnB = driver.findElement(By.id("column-b"));
 
         Actions action = new Actions(driver);
-        action.dragAndDrop(columns.get(0), columns.get(1)).build().perform();
+        action.dragAndDrop(columnA, columnB).build().perform();
 
         columns = driver.findElements(By.className("column"));
 
