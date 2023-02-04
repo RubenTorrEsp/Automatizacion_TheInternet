@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="DragAndDropPage and DragAndDropTests classes created.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FloatingMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FloatingMenuTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DragAndDropTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DragAndDropTests.java" afterDir="false" />
     </list>
@@ -61,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DragAndDropTests">
+  <component name="RunManager" selected="JUnit.FloatingMenuTests">
     <configuration name="DragAndDropTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,10 +93,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyPressesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FloatingMenuTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KeyPressesTests" />
+      <option name="MAIN_CLASS_NAME" value="FloatingMenuTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FloatingMenuTests" />
         <item itemvalue="JUnit.DragAndDropTests" />
         <item itemvalue="JUnit.DropdownTests.test" />
         <item itemvalue="JUnit.DropdownTests.check_title_is_correct" />
         <item itemvalue="JUnit.KeyPressesTests.press_arrow_keys_works_correctly" />
-        <item itemvalue="JUnit.KeyPressesTests" />
       </list>
     </recent_temporary>
   </component>
