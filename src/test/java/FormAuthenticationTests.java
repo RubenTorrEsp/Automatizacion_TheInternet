@@ -68,4 +68,25 @@ public class FormAuthenticationTests extends _Common {
         assertTrue(checkFlashMessage);
     }
 
+    @Test
+    public void logout_works() {
+        setUpPage();
+
+        fap.userName.sendKeys(fap.correctUser);
+        fap.password.sendKeys(fap.correctPass);
+        base.click(fap.buton);
+
+        fap.logOut();
+
+        String expectedFlashMessage = "You logged out of the secure area!";
+        String actualFlashMessage = fap.getFlashMessage();
+        boolean checkFlashMessage = actualFlashMessage.contains(expectedFlashMessage);
+        String expectedURL = "login";
+        String actualURL = driver.getCurrentUrl();
+        boolean checkURL = actualURL.endsWith(expectedURL);
+
+        assertTrue(checkURL);
+        assertTrue(checkFlashMessage);
+    }
+
 }

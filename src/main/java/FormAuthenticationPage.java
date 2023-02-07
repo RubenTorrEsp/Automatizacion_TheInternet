@@ -1,7 +1,9 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 public class FormAuthenticationPage extends _BasePage {
@@ -25,6 +27,12 @@ public class FormAuthenticationPage extends _BasePage {
     public String getFlashMessage() {
         String message = driver.findElement(By.id("flash")).getText();
         return message;
+    }
+
+    public void logOut() {
+        new WebDriverWait(driver, Duration.ofSeconds(5))
+                .until(page -> page.findElement(By.linkText("Logout")))
+                .click();
     }
 
 }
