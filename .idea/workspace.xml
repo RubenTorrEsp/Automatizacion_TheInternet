@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="FormAuthenticationPage and FormAuthenticationTests classes created.">
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Form Authentication tests created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FormAuthenticationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FormAuthenticationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FormAuthenticationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FormAuthenticationTests.java" afterDir="false" />
@@ -63,35 +63,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.FormAuthenticationTests">
-    <configuration name="DragAndDropTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automatizacion_TheInternet" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DragAndDropTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DropdownTests.check_title_is_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automatizacion_TheInternet" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DropdownTests" />
-      <option name="METHOD_NAME" value="check_title_is_correct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DropdownTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automatizacion_TheInternet" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DropdownTests" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FloatingMenuTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
@@ -110,13 +81,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FormAuthenticationTests.correct_login_works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automatizacion_TheInternet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FormAuthenticationTests" />
+      <option name="METHOD_NAME" value="correct_login_works" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormAuthenticationTests.incorrect_password_works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automatizacion_TheInternet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FormAuthenticationTests" />
+      <option name="METHOD_NAME" value="incorrect_password_works" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormAuthenticationTests.incorrect_user_works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automatizacion_TheInternet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FormAuthenticationTests" />
+      <option name="METHOD_NAME" value="incorrect_user_works" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FormAuthenticationTests" />
+        <item itemvalue="JUnit.FormAuthenticationTests.correct_login_works" />
+        <item itemvalue="JUnit.FormAuthenticationTests.incorrect_password_works" />
+        <item itemvalue="JUnit.FormAuthenticationTests.incorrect_user_works" />
         <item itemvalue="JUnit.FloatingMenuTests" />
-        <item itemvalue="JUnit.DragAndDropTests" />
-        <item itemvalue="JUnit.DropdownTests.test" />
-        <item itemvalue="JUnit.DropdownTests.check_title_is_correct" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675532672643</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Form Authentication tests created">
+      <created>1675534910160</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675534910160</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,6 +350,7 @@
     <MESSAGE value="Drag and drop test improvement" />
     <MESSAGE value="FloatingMenuPage and FloatingMenuTests classes created." />
     <MESSAGE value="FormAuthenticationPage and FormAuthenticationTests classes created." />
-    <option name="LAST_COMMIT_MESSAGE" value="FormAuthenticationPage and FormAuthenticationTests classes created." />
+    <MESSAGE value="Form Authentication tests created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Form Authentication tests created" />
   </component>
 </project>

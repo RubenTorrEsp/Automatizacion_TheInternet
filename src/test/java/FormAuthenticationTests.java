@@ -19,12 +19,15 @@ public class FormAuthenticationTests extends _Common {
         fap.password.sendKeys(fap.correctPass);
         base.click(fap.buton);
 
-        //System.out.println(fap.message);
-
+        String expectedFlashMessage = "You logged into a secure area!";
+        String actualFlashMessage = fap.getFlashMessage();
+        boolean checkFlashMessage = actualFlashMessage.contains(expectedFlashMessage);
         String expectedURL = "secure";
-        boolean actualURL = driver.getCurrentUrl().endsWith(expectedURL);
+        String actualURL = driver.getCurrentUrl();
+        boolean checkURL = actualURL.endsWith(expectedURL);
 
-        assertTrue(actualURL);
+        assertTrue(checkURL);
+        assertTrue(checkFlashMessage);
     }
 
     @Test
@@ -35,12 +38,15 @@ public class FormAuthenticationTests extends _Common {
         fap.password.sendKeys(fap.correctPass);
         base.click(fap.buton);
 
-        //System.out.println(fap.message);
-
+        String expectedFlashMessage = "Your username is invalid!";
+        String actualFlashMessage = fap.getFlashMessage();
+        boolean checkFlashMessage = actualFlashMessage.contains(expectedFlashMessage);
         String expectedURL = "login";
-        boolean actualURL = driver.getCurrentUrl().endsWith(expectedURL);
+        String actualURL = driver.getCurrentUrl();
+        boolean checkURL = actualURL.endsWith(expectedURL);
 
-        assertTrue(actualURL);
+        assertTrue(checkURL);
+        assertTrue(checkFlashMessage);
     }
 
     @Test
@@ -51,12 +57,15 @@ public class FormAuthenticationTests extends _Common {
         fap.password.sendKeys(fap.wrongPass);
         base.click(fap.buton);
 
-        //System.out.println(fap.message);
-
+        String expectedFlashMessage = "Your password is invalid!";
+        String actualFlashMessage = fap.getFlashMessage();
+        boolean checkFlashMessage = actualFlashMessage.contains(expectedFlashMessage);
         String expectedURL = "login";
-        boolean actualURL = driver.getCurrentUrl().endsWith(expectedURL);
+        String actualURL = driver.getCurrentUrl();
+        boolean checkURL = actualURL.endsWith(expectedURL);
 
-        assertTrue(actualURL);
+        assertTrue(checkURL);
+        assertTrue(checkFlashMessage);
     }
 
 }
