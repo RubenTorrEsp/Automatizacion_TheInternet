@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Fleash message authentication added">
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Imports improved and logout test added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FormAuthenticationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FormAuthenticationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FormAuthenticationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FormAuthenticationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InputsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InputsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InputsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InputsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FormAuthenticationTests">
+  <component name="RunManager" selected="JUnit.InputsTests">
     <configuration name="FormAuthenticationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,16 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormAuthenticationTests.incorrect_user_works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automatizacion_TheInternet" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FormAuthenticationTests" />
-      <option name="METHOD_NAME" value="incorrect_user_works" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FormAuthenticationTests.logout_works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,13 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InputsTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automatizacion_TheInternet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InputsTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InputsTests" />
         <item itemvalue="JUnit.FormAuthenticationTests" />
         <item itemvalue="JUnit.FormAuthenticationTests.logout_works" />
         <item itemvalue="JUnit.FormAuthenticationTests.correct_login_works" />
         <item itemvalue="JUnit.FormAuthenticationTests.incorrect_password_works" />
-        <item itemvalue="JUnit.FormAuthenticationTests.incorrect_user_works" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675798775829</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Fleash message authentication added">
+      <created>1675799252710</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675799252710</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Imports improved and logout test added">
+      <created>1675799642569</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1675799642569</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,7 +348,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project creation" />
     <MESSAGE value="Project adaptation to new page" />
     <MESSAGE value="Add / Remove page added to project" />
     <MESSAGE value="JavaScript page added to project" />
@@ -360,6 +372,7 @@
     <MESSAGE value="FormAuthenticationPage and FormAuthenticationTests classes created." />
     <MESSAGE value="Form Authentication tests created" />
     <MESSAGE value="Fleash message authentication added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fleash message authentication added" />
+    <MESSAGE value="Imports improved and logout test added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imports improved and logout test added" />
   </component>
 </project>
