@@ -5,8 +5,6 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 public class DragAndDropTests extends _Common {
 
     DragAndDropPage ddp;
@@ -17,13 +15,10 @@ public class DragAndDropTests extends _Common {
     }
 
     @Test
-    public void drop_a2b_works() {
+    public void drop_a2b_works() throws InterruptedException {
         setUpPage();
 
-        String expectedTitle = "a";
-        String actualTitle = "a";
-
-        List<WebElement> columns = driver.findElements(By.className("column"));
+        List<WebElement> columns = driver.findElements(By.cssSelector("header"));
 
         System.out.println("Before");
         System.out.println(columns.get(0).getText());
@@ -33,16 +28,14 @@ public class DragAndDropTests extends _Common {
         WebElement columnB = driver.findElement(By.id("column-b"));
 
         Actions action = new Actions(driver);
-        action.dragAndDrop(columnA, columnB).build().perform();
+        action.dragAndDrop(columnB, columnA).build().perform();
+        Thread.sleep(2000);
 
         columns = driver.findElements(By.className("column"));
 
         System.out.println("After");
         System.out.println(columns.get(0).getText());
         System.out.println(columns.get(1).getText());
-
-
-        assertEquals(expectedTitle, actualTitle, ddp.errorMessage);
     }
 
 }

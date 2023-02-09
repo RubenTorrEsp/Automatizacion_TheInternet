@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Imports improved and logout test added">
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Inputs tests added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/StatusCodesPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StatusCodesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InputsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InputsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InputsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InputsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DragAndDropTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DragAndDropTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,32 +63,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InputsTests">
+  <component name="RunManager" selected="JUnit.StatusCodesTests">
+    <configuration name="DragAndDropTests.drop_a2b_works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automatizacion_TheInternet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DragAndDropTests" />
+      <option name="METHOD_NAME" value="drop_a2b_works" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FormAuthenticationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FormAuthenticationTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FormAuthenticationTests.correct_login_works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automatizacion_TheInternet" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FormAuthenticationTests" />
-      <option name="METHOD_NAME" value="correct_login_works" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FormAuthenticationTests.incorrect_password_works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automatizacion_TheInternet" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FormAuthenticationTests" />
-      <option name="METHOD_NAME" value="incorrect_password_works" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,13 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatusCodesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automatizacion_TheInternet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StatusCodesTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatusCodesTests" />
+        <item itemvalue="JUnit.DragAndDropTests.drop_a2b_works" />
         <item itemvalue="JUnit.InputsTests" />
         <item itemvalue="JUnit.FormAuthenticationTests" />
         <item itemvalue="JUnit.FormAuthenticationTests.logout_works" />
-        <item itemvalue="JUnit.FormAuthenticationTests.correct_login_works" />
-        <item itemvalue="JUnit.FormAuthenticationTests.incorrect_password_works" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675799642569</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Inputs tests added">
+      <created>1675976055452</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1675976055452</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +355,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project adaptation to new page" />
     <MESSAGE value="Add / Remove page added to project" />
     <MESSAGE value="JavaScript page added to project" />
     <MESSAGE value="JavaScript tests class added to project" />
@@ -373,6 +379,7 @@
     <MESSAGE value="Form Authentication tests created" />
     <MESSAGE value="Fleash message authentication added" />
     <MESSAGE value="Imports improved and logout test added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Imports improved and logout test added" />
+    <MESSAGE value="Inputs tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inputs tests added" />
   </component>
 </project>
