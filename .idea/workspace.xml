@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment="Inputs tests added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/StatusCodesPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StatusCodesTests.java" afterDir="false" />
+    <list default="true" id="187013e8-71c1-4f5d-af72-035a51ff6a18" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/main/java/RedirectionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RedirectionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DragAndDropTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DragAndDropTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StatusCodesTests">
+  <component name="RunManager" selected="JUnit.RedirectionTests">
     <configuration name="DragAndDropTests.drop_a2b_works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,20 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormAuthenticationTests.logout_works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automatizacion_TheInternet" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FormAuthenticationTests" />
-      <option name="METHOD_NAME" value="logout_works" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InputsTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automatizacion_TheInternet" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="InputsTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedirectionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automatizacion_TheInternet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RedirectionTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedirectionTests" />
         <item itemvalue="JUnit.StatusCodesTests" />
         <item itemvalue="JUnit.DragAndDropTests.drop_a2b_works" />
         <item itemvalue="JUnit.InputsTests" />
         <item itemvalue="JUnit.FormAuthenticationTests" />
-        <item itemvalue="JUnit.FormAuthenticationTests.logout_works" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675976055452</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary=".">
+      <created>1675982140268</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1675982140268</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,7 +360,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add / Remove page added to project" />
     <MESSAGE value="JavaScript page added to project" />
     <MESSAGE value="JavaScript tests class added to project" />
     <MESSAGE value="Classes renamed" />
@@ -380,6 +384,7 @@
     <MESSAGE value="Fleash message authentication added" />
     <MESSAGE value="Imports improved and logout test added" />
     <MESSAGE value="Inputs tests added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inputs tests added" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
